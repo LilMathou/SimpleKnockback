@@ -46,7 +46,7 @@ final class KnockbackListener implements Listener
                 $event->setKnockback(0);
                 $event->setAttackCooldown($attack_cooldown);
 
-                KnockbackManager::getInstance()->setKnockback($player, $deltaX, $deltaZ, $horizontal, $vertical, $vertical);
+                KnockbackHandler::getInstance()->knockBack($player, $deltaX, $deltaZ, $horizontal, $vertical, $vertical);
             }
         }
     }
