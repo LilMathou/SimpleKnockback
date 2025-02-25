@@ -1,0 +1,33 @@
+#    ▄████████  ▄█    ▄▄▄▄███▄▄▄▄      ▄███████▄  ▄█          ▄████████         ▄█   ▄█▄ ▀█████████▄
+#   ███    ███ ███  ▄██▀▀▀███▀▀▀██▄   ███    ███ ███         ███    ███        ███ ▄███▀   ███    ███
+#   ███    █▀  ███▌ ███   ███   ███   ███    ███ ███         ███    █▀         ███▐██▀     ███    ███
+#   ███        ███▌ ███   ███   ███   ███    ███ ███        ▄███▄▄▄           ▄█████▀     ▄███▄▄▄██▀
+# ▀███████████ ███▌ ███   ███   ███ ▀█████████▀  ███       ▀▀███▀▀▀          ▀▀█████▄    ▀▀███▀▀▀██▄
+#          ███ ███  ███   ███   ███   ███        ███         ███    █▄         ███▐██▄     ███    ██▄
+#    ▄█    ███ ███  ███   ███   ███   ███        ███▌    ▄   ███    ███        ███ ▀███▄   ███    ███
+#  ▄████████▀  █▀    ▀█   ███   █▀   ▄████▀      █████▄▄██   ██████████        ███   ▀█▀ ▄█████████▀
+#                                                ▀                             ▀
+
+simple-knockback:
+
+  knockback-value:
+
+    # Modify the Attack Cooldown
+    attack-cooldown: 10
+
+    # Modify the Vertical Knockback
+    vertical: 0.4
+
+    #Modify the Horizontal Knockback
+    horizontal: 0.4
+
+  message:
+    success: "§aYou have successfully changed the knockback! VERTICAL : {VERTICAL}, HORIZONTAL : {HORIZONTAL}, ATTACK-COOLDOWN : {ATTACK-COOLDOWN}"
+    see-knockback: "§aHere is the actual knockback on the server! VERTICAL : {VERTICAL}, HORIZONTAL : {HORIZONTAL}, ATTACK-COOLDOWN : {ATTACK-COOLDOWN}"
+
+    # THIS MESSAGE WILL SHOW IF YOUR HORIZONTAL, VERTICAL VALUE IS NOT A FLOAT AND THE ATTACK COOLDOWN NOT AN INT
+    error: "§cInvalid Knockback values."
+
+    missing-arguments: "§cUsage: /setknockback (horizontal) (vertical) (attack-cooldown)"
+    no-permission: "§cYou don't have the permission to use this command."
+    console: "§cPlease use this command in-game."

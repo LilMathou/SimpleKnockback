@@ -1,0 +1,8 @@
+name: SimpleKnockback
+main: knockback\Knockback
+
+src-namespace-prefix: knockback
+
+author: LilMathou
+api: [ 5.0.0 ]
+version: 1.0.0
